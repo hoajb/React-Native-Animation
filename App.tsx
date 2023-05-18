@@ -19,6 +19,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import AnimationWidget from './src/components/AnimationWidget';
 import GestureAnimationWidget from './src/components/GestureAnimationWidget';
+import AnimationButtonLoading2 from './src/components/AnimationButtonLoading2';
+import AnimationXSign from './src/components/AnimationXSign';
 
 
 function App(): JSX.Element {
@@ -33,6 +35,8 @@ function App(): JSX.Element {
     <SafeAreaView style={backgroundStyle}>
       {/* <AnimationWidget /> */}
       <GestureAnimationWidget />
+      {/* <AnimationButtonLoading2 /> */}
+      {/* <AnimationXSign size={50} durationAnim={500} /> */}
     </SafeAreaView>
   );
 }
